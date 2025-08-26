@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Eco Qualify Quiz</title>
 
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
   <!-- Google Tag Manager -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16547763459"></script>
   <script>
@@ -28,7 +31,7 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Poppins', sans-serif;
       background: #fff;
       color: #000;
       line-height: 1.6;
@@ -40,24 +43,29 @@
       padding: 30px 20px;
     }
 
+    
+
     .highlight {
-      color: #d00;
+      color: rgb(255, 0, 0);
       font-style: italic;
       text-align: center;
       font-size: 1.2rem;
+      font-weight: bold;
     }
 
     h1 {
       text-align: center;
-      font-size: 1.8rem;
+      font-size: 28px;
+      font-weight: lighter;
     }
 
     .quiz-box iframe {
-      width: 100%;
+      width: 1000px;
       height: 600px;
       border: none;
       border-radius: 10px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      margin-left: 160px;
     }
 
     .step-section {
@@ -112,6 +120,8 @@
       font-size: 13px;
       color: #333;
       padding: 20px 10px;
+      
+      
     }
 
     @media (max-width: 768px) {
@@ -124,63 +134,86 @@
 
 <body>
   <div class="container">
-    <p class="highlight">Sick and Tired of Paying Too Much for Your Energy Bills?</p>
+    <p class="highlight">
+      Sick and Tired of Paying Too Much for Your Energy Bills?
+    </p>
+
     <h1>
       *Slash Your Energy Bills, <strong>Save £1000s</strong> and Protect Your Family<br />
       from Greedy Price Hikes by Upgrading Your Home<br />
       With <strong>100% FREE Energy Efficiency Measures</strong> in 14 Days
     </h1>
 
-    <p style="text-align: center;">
+    <p style="text-align: center; font-size: 19px; font-weight: 400;">
       Take the quick 57-second quiz below to see<br />
       if you qualify for <strong>100% FREE energy efficiency upgrades</strong><br />
       (before the funding runs out).
     </p>
+  </div>
 
-    <div class="quiz-box">
-      <iframe src="https://api.leadconnectorhq.com/widget/survey/gjLTrzzN3TpPFMJzrrox" title="survey"></iframe>
+  <div class="quiz-box">
+    <iframe src="https://api.leadconnectorhq.com/widget/survey/gjLTrzzN3TpPFMJzrrox" title="survey"></iframe>
+    <!-- Add your image here -->
+    <div class="quiz-image" style="text-align: center; margin-top: -70px;">
+      <img src="Images/tmpj019jt4g.webp" 
+        alt="Energy Saving Image" 
+        style="max-width: 100%; height: 25px; border: 2px solid rgb(110, 108, 108); border-radius: 8px; padding: 4px;">
     </div>
-    <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+  </div>
 
-    <div class="step-section">
-      <h2>A SIMPLE 3 STEP PROCESS…</h2>
-      <p style="text-align: center;">Used by thousands of homeowners to save money with FREE energy upgrades like solar panels, insulation, boilers & more…</p>
+  <script src="https://link.msgsndr.com/js/form_embed.js"></script>
 
-      <div class="step-list">
-        <div class="step">
-          <img src="/Images/1.webp" alt="Step 1 Icon" class="step-icon" />
-          <p>Complete our quick 57-second quiz by answering a few simple questions.</p>
-        </div>
-        <div class="step">
-          <img src="/Images/2.webp" alt="Step 2 Icon" class="step-icon" />
-          <p>You will be contacted to confirm your eligibility for a FREE grant.</p>
-        </div>
-        <div class="step">
-          <img src="/Images/3.webp" alt="Step 3 Icon" class="step-icon" />
-          <p>Book your free no-obligation survey and installation date.</p>
-        </div>
+  <div style="max-width: 1100px; margin: 40px auto; color: #000; text-align: center;">
+    <h1 style="margin-top: 60px; font-weight: bold;">
+      A SIMPLE 3 STEP <br> PROCESS...
+    </h1>
+
+    <p>Being used by thousands of homeowners and private renters to beat the cost of living crisis, keep more of their hard-earned money and stay out of debt - with FREE solar panels, air source heat pumps, replacement boilers, home insulation and much more...</p>
+
+    <!-- Three Step Icons -->
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-bottom: 30px;">
+      <div style="width: 300px; padding: 10px;">
+        <img src="Images/1.webp" alt="Step 1" style="height: 60px; margin-bottom: 10px;" />
+        <p>Complete our quick 57-second quiz above by answering a few simple questions.</p>
       </div>
-
-      <p style="margin-top: 30px;">
-        With no lengthy forms or endless questionnaires, you could be saving hundreds on heating bills sooner than you think. But hurry... funding is limited and based on first come, first serve.
-      </p>
-
-      <p><strong>DISCLAIMER:</strong> *Your individual results may vary. While many see installation within 14 days of application approval, circumstances beyond control (document delays, weather, scheduling) may affect timing.</p>
-
-      <p style="font-size: 13px; margin-top: 30px;">
-        All product names, logos, and brands are the property of their respective owners. Use of names does not imply endorsement.<br><br>
-        This site is not part of Google™, YouTube™, or Facebook™. All trademarks are property of their respective companies.
-      </p>
-
-      <div class="footer-links">
-        <a href="#">Disclaimer</a> |
-        <a href="#">Privacy Policy</a>
+      
+      <div style="width: 300px; padding: 10px;">
+        <img src="Images/2.webp" alt="Step 2" style="height: 60px; margin-bottom: 10px;" />
+        <p>You will be contacted to confirm your <br> eligible for a <br> FREE grant.</p>
       </div>
-
-      <div class="footer">
-        &copy; 2025 Your Company. All rights reserved.
+      
+      <div style="width: 300px; padding: 10px;">
+        <img src="Images/3.webp" alt="Step 3" style="height: 60px; margin-bottom: 10px;" />
+        <p>Book your free no-obligation survey and installation date.</p>
       </div>
     </div>
+
+    <!-- Middle Paragraph -->
+    <p style="font-size: 16px; margin-bottom: 30px;">
+      With no lengthy forms or endless questionnaires to complete you could be saving hundreds of pounds in heating bills and enjoying a happier home-life much quicker than you think. But hurry...funding is limited and is strictly on a first come, first serve basis.
+    </p>
+
+    <!-- Disclaimer -->
+    <p style="font-size: 16px; margin-bottom: 20px; line-height: 1.5; text-align: justify;">
+      <strong><em style="color: #313030;">DISCLAIMER:</em></strong> Your individual results may vary. Although it is possible to have your free measures installed within 14 days of the acceptance of your application, this is not guaranteed as there may be circumstances beyond our control – such as the speed of which you supply required documents, survey available slots, adverse weather conditions and changes in the scheme details by Ofgem, the Government agency responsible for the implementation of the ECO4 and Great British Insulation Schemes.
+    </p>
+
+    <!-- Product/Brand Notice -->
+    <p style="font-size: 16px; margin-bottom: 20px; text-align: justify;">
+      All product names, logos, and brands are the property of their respective owners. All company, product and service names used on this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
+    </p>
+
+    <br>
+    <br>
+    <!-- Google/Facebook Disclaimer -->
+    <p style="font-size: 16px; text-align: justify;">
+      This site is not a part of Google™ website or network of sites such as Youtube™ or any company wholly owned by Google™ or Youtube™. Additionally this website is not endorsed by Google™ Youtube™ or Facebook Inc. In Anyway Google™ is a trademark for all of their respective companies, FACEBOOK™ is a trademark of FACEBOOK, Inc.
+    </p>
+  </div>
+
+  <div style="bottom: 0; left: 0; width: 100vw; background-color: #0000FF; padding: 15px 0; text-align: center; z-index: 9999;">
+    <a href="#disclaimer" style="color: white; text-decoration: none; margin: 0 10px;">Disclaimer</a> |
+    <a href="#privacy" style="color: white; text-decoration: none; margin: 0 10px;">Privacy Policy</a>
   </div>
 </body>
 </html>
